@@ -21,7 +21,7 @@ public class BoardCreationTest extends TestBase {
     app.returnToPreviousPage();
   }
 
-  @Test
+  //@Test
   public void testBoardCreationFromHeader() {
     app.clickOnPlusButtonOnHeader();
     app.getBoardHelper().selectCreateBoard();
